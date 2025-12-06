@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(230, 223, 223);
 }
 
 img {
@@ -40,23 +41,35 @@ button {
         width: 350px;
     }
 
+    .cover {
+        background-color: purple;
+        margin: 0px 30px;
+         padding: 30px 0px;
+    }
+
     .intro_picture {
         flex-direction: column;
-        background-color: white;
-        margin-top: 30px;
+        margin: 20px 10px;
         gap: 30px;
+        border-radius: 20px;
     }
 
     .intro {
-         background-color: purple;
-         margin: 0px 5px;    
-         border-top-left-radius: 50px;
-         border-bottom-right-radius: 50px;
+        margin: 0px 25px;
+        background-color: rgb(230, 223, 223);
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
     }
 
     h1, h2 {
-        padding: 10px 60px;
-        margin: 10px 5px;
+        margin: 10px 10px;
+        border-bottom: 2px double purple;
+        padding: 10px 10px;
+        color: purple;
+    }
+
+    h1 {
+        border-left: 10px solid purple; 
     }
 
     button {
