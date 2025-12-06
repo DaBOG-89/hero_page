@@ -38,7 +38,7 @@ button {
 @media (max-width:512px) {
     img {
         border-radius: 50%;
-        width: 350px;
+        width: 300px;
     }
 
     .cover {
@@ -55,7 +55,7 @@ button {
     }
 
     .intro {
-        margin: 0px 25px;
+        margin: 0px 10px;
         background-color: rgb(230, 223, 223);
         border-top-left-radius: 25px;
         border-bottom-right-radius: 25px;
