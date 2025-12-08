@@ -3,42 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="index.css">
     <title>DaBOG's Portfolio</title>
 </head>
 <body>
     <div class="nav_bar">
         <h2 class="brand_name"">DaBOG's Codes</h2>
         <ul>
-            <a href=""><li>Bio</li></a>
-            <a href=""><li>Project</li></a>
-            <a href=""><li>Resume</li></a>
-            <a href=""><li>Contact</li></a>
+            <a href="about_me.html"><li>About Me</li></a>
+            <a href="projects/projects.html"><li>Project</li></a>
+            <a href="my_cv/my_cv.html"><li>Resume</li></a>
+            <a href="contact.html"><li>Contact</li></a>
         </ul>
     </div>
     <div class="cover">
         <div class="intro_picture">
             <div class="picture">
-                <img src="pic_1.png" alt="">
+                <img src="images/pic_1.png" alt="">
             </div>
             <div class="intro">
-                <h2><em>Adesola A. Babaniji.</em></h2>
-                <h1>Creative <br> Frontend <br> Web Developer.</h1>
+                <h2><em>Adesola A. Babaniji</em></h2>
+                <h1>Creative <br> Frontend <br> Web Developer</h1>
                 <h2>
                     <em>
-                        Build responsive websites. <br>
-                        Perfect fit for laptop and smartpones. <br> 
-                        Cost-effective business functionality. <br>
-                        User-friendly interfaces.
+                        Build responsive websites <br>
+                        Perfect fit for laptop and smartpones <br> 
+                        Cost-effective business functionality <br>
+                        User-friendly interfaces
                     </em>
                 </h2> 
             </div>
         </div>
         <div class="button">
-            <button type="button">Contact</button>
-            <button type="button">Portfolio</button>
+            <button type="button" onclick="contact()">Blogs</button>
+            <button type="button" onclick="portfolio()">Portfolio</button>
         </div>
-    </div>
-    
+    </div> 
 </body>
+<script>
+    function contact() {
+        window.location.href = "blogs.html";
+    }
+
+    function portfolio() {
+        window.location.href = "blogs.html";
+    }
+</script>
 </html>

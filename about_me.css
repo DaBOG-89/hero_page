@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(230, 223, 223);
+    text-align: justify;
+}
+
+.about_me {
+    background-color: purple;
+    color: white;
+    margin: 0px 250px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+h2 {
+    margin: 30px 10px 5px 10px;
+    font-style: italic;
+}
+
+li {
+    margin-left: 50px;
+}
+
+a {
+    color: white;
+    text-align: center;
+    margin: 0px 10px;
+    text-decoration: none;
+    border-bottom: 3px solid blueviolet;
+}
+
+a:hover {
+    border-bottom: none;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width:512px) {
+    .about_me {
+        margin: 0px 30px;
+    }
+}

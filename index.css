@@ -14,7 +14,7 @@ body {
 
 .nav_bar {
     display: flex;
-    gap: 335px;
+    gap: 330px;
     align-items: center;
     margin: 20px 20px;
     color: purple;
@@ -42,12 +42,13 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 55px;
     gap: 30px;
 }
 
 h1, h2 {
     color: white;
+    margin: 5px 0px;
 }
 
 .button {
