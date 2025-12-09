@@ -66,10 +66,13 @@ p:hover {
 @media (max-width:512px) {
     .container {
         background-color: rgb(190, 123, 190);
-        margin: 170px 30px;
+        margin: 0px 30px;
+        padding: 200px 0px;
     }
     .heading {
+        margin: 0px;
         padding: 0px 30px;
+        margin: 0px 0px 5px 0px;
         text-align: center;
     }
 
@@ -78,8 +81,8 @@ p:hover {
     }
     
     .contacts {
-        padding: 20px 10px;
         padding: 0px;
+        margin: 5px 0px;
     }
 
     img {
@@ -87,6 +90,6 @@ p:hover {
     }
 
     p {
-        font-size: 15px;
+        font-size: 20px;
     }
 }
