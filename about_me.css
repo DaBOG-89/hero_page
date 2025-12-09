@@ -48,6 +48,9 @@ a:hover {
 }
 
 @media (max-width:512px) {
+    body {
+        text-align: left;
+    }
     .about_me {
         margin: 0px 30px;
     }
