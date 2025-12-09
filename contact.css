@@ -89,7 +89,15 @@ p:hover {
         width: 30px;
     }
 
+    img:hover {
+        width: 31px;
+    }
+
     p {
         font-size: 20px;
+    }
+
+    p:hover {
+        font-size: 21px;
     }
 }
