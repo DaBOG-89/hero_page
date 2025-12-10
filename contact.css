@@ -67,7 +67,7 @@ p:hover {
     .container {
         background-color: rgb(190, 123, 190);
         margin: 0px 30px;
-        padding: 200px 0px;
+        padding: 50% 0px;
     }
     .heading {
         margin: 0px;
