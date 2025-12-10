@@ -65,14 +65,29 @@ p:hover {
 
 @media (max-width:512px) {
     .container {
-        background-color: rgb(190, 123, 190);
-        margin: 0px 30px;
-        padding: 50% 0px;
+       background-color: rgb(190, 123, 190);
+       margin: 2px 30px;
     }
+
+    .added {
+        margin: 0px 30px;
+    }
+
+    .top, .bottom {
+        background-color: rgb(190, 123, 190);
+        color: purple;
+        margin: 2px 30px;
+        padding: 5px 0px;
+        font-style: italic;
+    }
+
+    .top {
+        margin-top: 120px;
+    }
+
     .heading {
-        margin: 0px;
         padding: 0px 30px;
-        margin: 0px 0px 5px 0px;
+        margin: 15px 0px;
         text-align: center;
     }
 
@@ -81,6 +96,7 @@ p:hover {
     }
     
     .contacts {
+        
         padding: 0px;
         margin: 5px 0px;
     }
