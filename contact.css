@@ -8,12 +8,40 @@ body {
     background-color: rgb(230, 223, 223);
 }
 
+
+
 .container {
     background-color: rgb(190, 123, 190);
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 2px;
+}
+
+.top, .bottom {
+    display: block;
+    background-color: rgb(190, 123, 190);
+    color: purple;
+    margin: 2px 0px;
+    padding: 5px 0px;
+    font-style: italic;
+}
+
+.top {
+    margin-top: 120px;
+    text-align: left;
+}
+
+.top h1 {
+    padding: 10px 20px;
+}
+
+.bottom {
+    text-align: right;
+}
+
+.bottom h1 {
+    padding: 0px 20px;
 }
 
 .heading {
@@ -74,6 +102,7 @@ p:hover {
     }
 
     .top, .bottom {
+        display: flex;
         background-color: rgb(190, 123, 190);
         color: purple;
         margin: 2px 30px;
