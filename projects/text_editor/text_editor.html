@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="text_editor.css">
+    <title>Text Edtior</title>
+</head>    
+<body>
+    <div>
+        <h1></h1>
+        <header>
+            <h1>Text Editor</h1>
+        </header>
+        <div class="display">
+            <p></p>
+        </div>
+        <main>
+            <textarea name="notes" id="note" placeholder="write here"></textarea>
+        </main>
+        <footer>
+            <button onclick="edit()">Edit</button>
+            <button onclick="enter()">Enter</button>
+            <button type="submit" onclick="submit()">Submit</button>
+        </footer>
+    </div>  
+</body>
+<Script>
+    let header =document.querySelector("header");
+    let h1 = document.querySelector("h1");
+    let display = document.querySelector(".display");
+    let p = document.querySelector("p");
+    let textarea = document.querySelector("textarea");
+    let main = document.querySelector("main");
+    let footer = document.querySelector("footer");
+    display.style.display = "none";
+
+    function enter() {
+        p.innerHTML = textarea.value;
+        h1.style.display = "none";
+        display.style.display = "block";
+        p.style.display = "block";
+        main.style.display = "none";
+    }
+
+    function edit() {
+        display.style.display = "none";
+        p.style.display = "none";
+        main.style.display = "block";;
+    }
+
+    function submit() {
+        p.style.display = "none";
+        textarea.style.display = "none";
+        header.style.display = "none";
+        footer.style.display = "none";
+        h1.style.display = "block";
+        h1.innerHTML = "Submitted";
+    }
+</Script>
+</html>
