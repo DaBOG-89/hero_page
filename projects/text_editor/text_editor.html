@@ -8,14 +8,13 @@
 </head>    
 <body>
     <div>
-        <h1></h1>
         <header>
             <h1>Text Editor</h1>
         </header>
-        <div class="display">
-            <p></p>
-        </div>
         <main>
+            <div class="display">
+                <p></p>
+            </div>
             <textarea name="notes" id="note" placeholder="write here"></textarea>
         </main>
         <footer>
@@ -36,23 +35,21 @@
     display.style.display = "none";
 
     function enter() {
-        p.innerHTML = textarea.value;
-        h1.style.display = "none";
+        main.style.display = "block";
         display.style.display = "block";
-        p.style.display = "block";
-        main.style.display = "none";
+        p.innerHTML = textarea.value;
+        textarea.style.display = "none";
     }
 
     function edit() {
+        main.style.display = "block";
         display.style.display = "none";
-        p.style.display = "none";
-        main.style.display = "block";;
+        textarea.style.display = "block"; 
     }
 
     function submit() {
-        p.style.display = "none";
-        textarea.style.display = "none";
-        header.style.display = "none";
+        header.style.display = "block";
+        main.style.display = "none";
         footer.style.display = "none";
         h1.style.display = "block";
         h1.innerHTML = "Submitted";
